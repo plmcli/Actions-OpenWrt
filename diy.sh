@@ -8,4 +8,5 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.123.99/g' package/base-files/files/bin/config_generate
-git clone https://github.com/ntlf9t/luci-app-dnspod.git
+git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
+git clone https://github.com/ntlf9t/luci-app-dnspod.git package/luci-app-dnspod
