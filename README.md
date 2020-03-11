@@ -20,6 +20,8 @@ https://tmate.io/t/Y26QeagDtsPXp2mT6me5cnMRd
 
 命令：cd openwrt && make menuconfig
 
+进入后如果是黑屏按快捷键ctrl+C打开操作界面。
+
 新手参考OpenWrt MenuConfig设置和LuCI插件选项说明
 
 完成后按快捷键Ctrl+D或执行exit命令退出，后续编译工作将自动进行。
