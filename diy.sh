@@ -12,3 +12,5 @@ git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 git clone https://github.com/ntlf9t/luci-app-dnspod.git package/luci-app-dnspod
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/Leo-Jo/luci-app-koolproxyR.git package/luci-app-koolproxyR
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
